@@ -1,0 +1,31 @@
+El contenido del archivo `docs/explicacion_estructuras.docx` es el siguiente:
+
+Título: **Explicación de Estructuras de Datos en Python**
+
+1. **Introducción**
+   - En este documento se explican dos estructuras de datos fundamentales en Python: listas y diccionarios. Se presentarán ejemplos prácticos de su uso en un programa que gestiona una lista de estudiantes y un directorio telefónico.
+
+2. **Listas en Python**
+   - **Descripción**: Las listas son estructuras de datos que permiten almacenar una colección de elementos. Se pueden modificar, lo que significa que se pueden agregar, eliminar o cambiar elementos.
+   - **Ejemplo**: En el archivo `lista_estudiantes.py`, se utiliza una lista para almacenar nombres de estudiantes. 
+     - **Ventajas**:
+       - Permiten el acceso a los elementos mediante índices.
+       - Son dinámicas, lo que significa que pueden crecer o reducirse según sea necesario.
+   - **Reflexión**: La elección de una lista para almacenar nombres de estudiantes es adecuada debido a la necesidad de acceder a los elementos por su posición y la posibilidad de modificar la lista fácilmente.
+
+3. **Diccionarios en Python**
+   - **Descripción**: Los diccionarios son estructuras de datos que almacenan pares de clave-valor. Permiten un acceso rápido a los valores mediante sus claves.
+   - **Ejemplo**: En el archivo `directorio_telefonico.py`, se implementa un directorio telefónico donde los nombres de los contactos son las claves y los números de teléfono son los valores.
+     - **Ventajas**:
+       - Proporcionan un acceso rápido a los datos.
+       - Permiten almacenar datos de manera más organizada, especialmente cuando se necesita buscar información específica.
+   - **Reflexión**: Utilizar un diccionario para un directorio telefónico es una elección lógica, ya que permite buscar rápidamente el número de un contacto sin necesidad de recorrer todos los elementos, lo que optimiza el tiempo de búsqueda.
+
+4. **Relación entre Algoritmos y Estructuras de Datos**
+   - La elección de la estructura de datos adecuada es crucial para el rendimiento de un algoritmo. Por ejemplo, al usar una lista para almacenar estudiantes, se facilita la iteración y el acceso por índice. En contraste, un diccionario permite búsquedas rápidas, lo que es esencial en un directorio telefónico.
+   - En resumen, la estructura de datos elegida debe alinearse con las operaciones que se realizarán con mayor frecuencia para optimizar el rendimiento del programa.
+
+5. **Conclusión**
+   - Las listas y los diccionarios son herramientas poderosas en Python que, cuando se utilizan correctamente, pueden mejorar significativamente la eficiencia y la claridad del código. La comprensión de estas estructuras de datos es fundamental para cualquier programador que desee escribir código efectivo y optimizado.
+
+Este documento proporciona una visión general de las estructuras de datos utilizadas en el proyecto y su relevancia en la programación en Python.
